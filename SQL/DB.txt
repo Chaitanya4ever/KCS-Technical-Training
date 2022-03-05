@@ -1,0 +1,87 @@
+1st Normal Form:
+
+Student_Matser
+Stud_Roll_No    Stud_Firstname    Stud_Lastname    Stud_EmailId    Stud_ContactNo    Stud_Gender    Stud_Address    Stud_Pincode    Stud_City    Stud_State    Stud_Country     Stud_Subject    Stud_Marks    Stud_Status
+(P_Key)                                            (U_Key)         (U_Key)
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     garden City	360005          Rajkot       Gujarat       INDIA            S1  			100				Owner
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     garden City	360005          Rajkot       Gujarat       INDIA            S2  			99				Owner
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     garden City	360005          Rajkot       Gujarat       INDIA            S3  			98				Owner
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     garden City	360005          Rajkot       Gujarat       INDIA            S4  			97				Owner
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     garden City	360005          Rajkot       Gujarat       INDIA            S5  			96				Owner											 
+2				Prashant		  Bhojwani		   pb@gmail.com    9999999999        Male		     garden City	360005          Rajkot       Gujarat       INDIA            S1  			100				Owner
+==========================================================================================================================================================================================================================
+
+2nd Normal Form:
+
+Student_Matser
+Stud_Roll_No    Stud_Firstname    Stud_Lastname    Stud_EmailId    Stud_ContactNo    Stud_Gender    Stud_Address    Stud_Pincode    Stud_City    Stud_State    Stud_Country     
+(P_Key)                                            (U_Key)         (U_Key)
+___________________________________________________________________________________________________________________________________________________________________________
+
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     garden City	360005          Rajkot       Gujarat       INDIA       
+2				Prashant		  Bhojwani		   pb@gmail.com    9999999999        Male		     garden City	360005          Rajkot       Gujarat       INDIA       
+
+****************************************************************************************************************************************************************************
+
+Student_Subject_Matser
+Stud_Roll_No        Stud_Subject    Stud_Marks    Stud_Status
+(F_Key)
+(Compo_P_Key)       (Compo_P_Key)
+
+
+1			        S1  			  100		    Owner			  
+1			        S2  			  99		    Owner			  
+1			        S3  			  98		    Owner			  
+1			        S4  			  97		    Owner			  
+1			        S5  			  96		    Owner			  
+
+==========================================================================================================================================================================================================================
+A=B & B=c | A=C
+3rd Normal Form:
+Student_Matser
+Stud_Roll_No    Stud_Firstname    Stud_Lastname    Stud_EmailId    Stud_ContactNo    Stud_Gender    Stud_Address    Stud_Pincode
+(P_Key)                                            (U_Key)         (U_Key)
+_________________________________________________________________________________________________________________________________
+
+1				Abhishek		  Pujara		   ap@gmail.com    9227608599        Male		     Garden City	360005       
+2				Prashant		  Bhojwani		   pb@gmail.com    9999999999        Male		     Rail Nagar  	360007       
+
+****************************************************************************************************************************************************************************
+
+Student_Subject_Matser
+Stud_Roll_No        Stud_Subject    Stud_Marks    Stud_Status
+(F_Key)
+(Compo_P_Key)       (Compo_P_Key)
+
+
+1			        S1  			  100		    Owner			  
+1			        S2  			  99		    Owner			  
+1			        S3  			  98		    Owner			  
+1			        S4  			  97		    Owner			  
+1			        S5  			  96		    Owner			  
+
+****************************************************************************************************************************************************************************
+
+Pincode_City_State_Country_Matser
+Stud_Pincode    Stud_City    Stud_State    Stud_Country     
+360005          Rajkot       Gujarat       INDIA       
+360006          Rajkot       Gujarat       INDIA       
+360007          Rajkot       Gujarat       INDIA       
+
+
+=================================================================================================================================
+
+SQL = DDL + DML
+
+DDL - Data Definition Language:
+1) Create Database <DBName>
+2) Create Table <TableName> (Column1 DatatypeofColumn1withSize,Column2 DatatypeofColumn2withSize,Column3 DatatypeofColumn3withSize)
+3) Alter Table <TableName> ADD(NewColumn DatatypeOfNewClumn)
+4) Alter Table <TableName> Modify(ColumnName UpdateDatatypeOfColumn)
+5) Alter Table <TableName> Rename(OldColumnName NewColumnName)
+6) SP_RENAME OldTableName To NewTableName
+7) DROP TABLE <TableName>
+8) TRUCATE TABLE <TableName>
+

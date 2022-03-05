@@ -1,0 +1,50 @@
+<html>
+	<head>
+		
+		<title>Hover Menu List Using CSS</title>
+		
+		<style type="text/css">
+			#MainList li ul li{display:none;}
+			#MainList li:hover ul li{display:block;}
+			#MainList li:hover ul li ul li{display:none;}
+			#MainList li ul li:hover ul li{display:block;}
+			#MainList li ul li:hover ul li ul li{display:none;}
+			#MainList li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainList">
+			<li>Cars
+				<ul>
+					<li>Tesla
+						<ul>
+							<li>Model S</li>
+							<li>Model Y 
+								<ul>
+									<li>Solar</li>
+									<li>Battary</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Ford</li>
+					<li>Ferari</li>
+					<li>TATA</li>
+				</ul>
+			</li>
+			<li>Helicopter</li>
+			<li>Airplane</li>
+			<li>Rocket</li>
+			<li>Cruise
+				<ul>
+					<li>Heavy</li>
+					<li>Moderate</li>
+					<li>Light</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>

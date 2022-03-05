@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Demo JQUERY</title>
+        
+		<!--CDN LINK OF JQUERY PARENT PLUG IN - COMPULSORY TO BE HERE. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#TxtFocus").focus(function(){
+					$(this).css("background-color","red");
+				});
+				$("#TxtBlur").blur(function(){
+					$(this).css("background-color","yellow");
+				});
+				$("#TxtKeyPress").keypress(function(){
+					alert($(this).val());
+				});
+				$("#TxtKeyUp").keyup(function(){
+					alert($(this).val());
+				});
+			});
+        </script>
+    </head>
+    <body>
+        <input type="text" id="TxtFocus" placeholder="Check Text Box Focus Event..." /><hr/>
+		<input type="text" id="TxtBlur" placeholder="TextBox Blur Event..."/><hr/>
+        <input type="text" id="TxtKeyPress" placeholder="TextBox Key Event" /><hr/>
+        <input type="text" id="TxtKeyUp" placeholder="TextBoxKeyUP"/><hr/>
+    </body>
+</html>

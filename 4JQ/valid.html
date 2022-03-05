@@ -1,0 +1,208 @@
+<html>
+	<head>
+		<title>Validation Demo</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			var $FNameLNameRegEx = /^([a-zA-Z]{2,20})$/;
+			var $FullNameRegEx = /^([a-zA-Z ]{2,40})$/;
+			var $PasswordRegEx = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,12}$/;
+
+			var $EmailIdRegEx = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,8}\b$/i;
+			var $ConNoRegEx = /^([0-9]{10})$/;
+			
+			$(document).ready(function(){
+				
+				var tnameflag=false,tcontnoflag=false,tmailflag=false,tmsgflag=false;
+				
+				$("#tname").blur(function(){
+					$("#tnameValidation").empty();
+					if($(this).val()=="" || $(this).val()==null)
+					{
+						$("#tnameValidation").html("(*) Firstname required.");
+						tnameflag=false;
+					}
+					else{
+						if(!$(this).val().match($FNameLNameRegEx))
+						{
+							$("#tnameValidation").html("(*) Invalid firstname.");
+							tnameflag=false;
+						}
+						else{
+							tnameflag=true;
+						}
+					}
+				});
+				
+				$("#tcontno").blur(function(){
+					$("#tcontnoValidation").empty();
+					if($(this).val()=="" || $(this).val()==null)
+					{
+						$("#tcontnoValidation").html("(*) Contact Num Needed");
+						tcontnoflag=false;
+					}
+					else{
+						if(!$(this).val().match($ConNoRegEx))
+						{
+							$("#tcontnoValidation").html("(*) Invalid contact number");
+							tcontnoflag=false;
+						}
+						else{
+							tcontnoflag=true;
+						}
+					}
+				});
+
+				$("#tmail").blur(function(){
+					$("#tmailValidation").empty();
+					if($(this).val()=="" || $(this).val()==null)
+					{
+						$("#tmailValidation").html("(*) Email id required.");
+						tmailflag=false;
+					}
+					else{
+						if(!$(this).val().match($EmailIdRegEx))
+						{
+							$("#tmailValidation").html("(*) Invalid email id.");
+							tmailflag=false;
+						}
+						else{
+							tmailflag=true;
+						}
+					}
+				});
+
+
+				$("#tmsg").blur(function(){
+					$("#tmsgValidation").empty();
+					if($(this).val()=="" || $(this).val()==null)
+					{
+						$("#tmsgValidation").html("(*) Contact message required..!!");
+						tcontnoflag=false;
+					}
+					else{
+						if($("#tmsg").val().length>=3000)
+						{
+							$("#tmsgValidation").html("(*) Invalid contact message..!!");
+							tcontnoflag=false;
+						}
+						else{
+							tcontnoflag=true;
+						}
+					}
+				});
+
+				$("#Submit").click(function(){
+					$("#tnameValidation").empty();
+					if($("#tname").val()=="" || $("#tname").val()==null)
+					{
+						$("#tnameValidation").html("(*) Firstname required..!!");
+						tnameflag=false;
+					}
+					else{
+						if(!$("#tname").val().match($FNameLNameRegEx))
+						{
+							$("#tnameValidation").html("(*) Invalid firstname..!!");
+							tnameflag=false;
+						}
+						else{
+							tnameflag=true;
+						}
+					}
+					$("#tcontnoValidation").empty();
+					if($("#tcontno").val()=="" || $("#tcontno").val()==null)
+					{
+						$("#tcontnoValidation").html("(*) Contact no. required..!!");
+						tcontnoflag=false;
+					}
+					else{
+						if(!$("#tcontno").val().match($ConNoRegEx))
+						{
+							$("#tcontnoValidation").html("(*) Invalid contact no..!!");
+							tcontnoflag=false;
+						}
+						else{
+							tcontnoflag=true;
+						}
+					}
+					$("#tmailValidation").empty();
+					if($("#tmail").val()=="" || $("#tmail").val()==null)
+					{
+						$("#tmailValidation").html("(*) Email id required..!!");
+						tmailflag=false;
+					}
+					else{
+						if(!$("#tmail").val().match($EmailIdRegEx))
+						{
+							$("#tmailValidation").html("(*) Invalid email id..!!");
+							tmailflag=false;
+						}
+						else{
+							tmailflag=true;
+						}
+					}
+					$("#tmsgValidation").empty();
+					if($("#tmsg").val()=="" || $("#tmsg").val()==null)
+					{
+						$("#tmsgValidation").html("(*) Msg Required");
+						tmsgflag=false;
+					}
+					else{
+						if($("#tmsg").val().length>=3000)
+						{
+							$("#tmsgValidation").html("(*) Invalid contact message..!!");
+							tmsgflag=false;
+						}
+						else{
+							tmsgflag=true;
+						}
+					}
+					if(tnameflag==true && tcontnoflag==true && tmailflag==true && tmsgflag==true)
+					{
+						alert("Form submitted successfully..!!");
+					}
+					else{
+						alert("Invalid input..!!");
+					}
+				});
+				$("#tcontnoValidation").keypress(function(e){
+					$("#tcontnoValidation").empty();
+					var Flag=false;
+					(e.which>=48 && e.which<=57)
+					?Flag=true
+					:(Flag=false,$("#tcontnoValidation").html("(*) Invalid contact no..!!"));
+					return Flag;
+				});
+				$("#tname").keypress(function(e){
+					$("#tnameValidation").empty();
+					var Flag=false;
+					((e.which>=65 && e.which<=90) || (e.which>=92 && e.which<=121))
+					?Flag=true
+					:(Flag=false,$("#tnameValidation").html("(*) Invalid name..!!"));
+					return Flag;
+				});
+				
+			});
+			
+		</script>
+		<style type="text/css">
+			small{color:blue;}
+		</style>
+	</head>
+	<body>
+		<input type="text" id="tname" autofocus placeholder="Name Required" maxlength="20"/><br/>
+		<small id="tnameValidation"></small>
+		<hr/>
+		<input type="text" id="tcontno" placeholder="contact no Required" maxlength="10"/><br/>
+		<small id="tcontnoValidation"></small>
+		<hr/>
+		<input type="text" id="tmail" placeholder="Mail Required" maxlength="50"/><br/>
+		<small id="tmaildValidation"></small>
+		<hr/>
+		<textarea rows="5" id="tmsg" placeholder="Msg Required" maxlength="200"></textarea><br/>
+		<small id="tmsgValidation"></small>	
+		<hr/>
+		<button id="Submit">submit here..</button>
+	</body>
+</html>
