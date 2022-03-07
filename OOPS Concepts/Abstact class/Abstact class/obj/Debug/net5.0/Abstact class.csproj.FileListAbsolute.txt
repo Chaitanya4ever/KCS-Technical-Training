@@ -1,0 +1,16 @@
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\bin\Debug\net5.0\Abstact class.exe
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\bin\Debug\net5.0\Abstact class.deps.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\bin\Debug\net5.0\Abstact class.runtimeconfig.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\bin\Debug\net5.0\Abstact class.runtimeconfig.dev.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\bin\Debug\net5.0\Abstact class.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\bin\Debug\net5.0\Abstact class.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.csproj.AssemblyReference.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.AssemblyInfoInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.AssemblyInfo.cs
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.csproj.CoreCompileInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\refint\Abstact class.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\Abstact class.genruntimeconfig.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Abstact class\Abstact class\obj\Debug\net5.0\ref\Abstact class.dll

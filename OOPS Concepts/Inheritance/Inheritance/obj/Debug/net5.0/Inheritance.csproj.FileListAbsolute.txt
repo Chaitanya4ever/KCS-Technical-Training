@@ -1,0 +1,16 @@
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.exe
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.deps.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.runtimeconfig.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.runtimeconfig.dev.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\bin\Debug\net5.0\Inheritance.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.csproj.AssemblyReference.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.AssemblyInfoInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.AssemblyInfo.cs
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.csproj.CoreCompileInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\refint\Inheritance.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\Inheritance.genruntimeconfig.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Inheritance\Inheritance\obj\Debug\net5.0\ref\Inheritance.dll

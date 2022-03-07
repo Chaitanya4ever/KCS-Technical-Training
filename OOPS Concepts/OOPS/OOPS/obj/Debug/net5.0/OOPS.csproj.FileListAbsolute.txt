@@ -1,0 +1,16 @@
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\bin\Debug\net5.0\OOPS.exe
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\bin\Debug\net5.0\OOPS.deps.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\bin\Debug\net5.0\OOPS.runtimeconfig.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\bin\Debug\net5.0\OOPS.runtimeconfig.dev.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\bin\Debug\net5.0\OOPS.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\bin\Debug\net5.0\OOPS.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.csproj.AssemblyReference.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.AssemblyInfoInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.AssemblyInfo.cs
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.csproj.CoreCompileInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\refint\OOPS.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\OOPS.genruntimeconfig.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS\OOPS\obj\Debug\net5.0\ref\OOPS.dll

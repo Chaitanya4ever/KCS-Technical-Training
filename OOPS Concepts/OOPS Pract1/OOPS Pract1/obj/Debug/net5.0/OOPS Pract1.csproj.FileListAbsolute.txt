@@ -1,0 +1,16 @@
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\bin\Debug\net5.0\OOPS Pract1.exe
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\bin\Debug\net5.0\OOPS Pract1.deps.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\bin\Debug\net5.0\OOPS Pract1.runtimeconfig.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\bin\Debug\net5.0\OOPS Pract1.runtimeconfig.dev.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\bin\Debug\net5.0\OOPS Pract1.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\bin\Debug\net5.0\OOPS Pract1.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.csproj.AssemblyReference.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.AssemblyInfoInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.AssemblyInfo.cs
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.csproj.CoreCompileInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\refint\OOPS Pract1.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\OOPS Pract1.genruntimeconfig.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\OOPS Pract1\OOPS Pract1\obj\Debug\net5.0\ref\OOPS Pract1.dll

@@ -1,0 +1,16 @@
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\bin\Debug\net5.0\Genericcollection.exe
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\bin\Debug\net5.0\Genericcollection.deps.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\bin\Debug\net5.0\Genericcollection.runtimeconfig.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\bin\Debug\net5.0\Genericcollection.runtimeconfig.dev.json
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\bin\Debug\net5.0\Genericcollection.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\bin\Debug\net5.0\Genericcollection.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.csproj.AssemblyReference.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.AssemblyInfoInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.AssemblyInfo.cs
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.csproj.CoreCompileInputs.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\refint\Genericcollection.dll
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.pdb
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\Genericcollection.genruntimeconfig.cache
+D:\OneDrive - Krish Compusoft Services Pvt Ltd\KCS-Technical-Training\OOPS Concepts\Genericcollection\Genericcollection\obj\Debug\net5.0\ref\Genericcollection.dll
