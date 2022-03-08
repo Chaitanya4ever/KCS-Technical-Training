@@ -1,0 +1,83 @@
+1. create database
+create database result
+
+2. create table
+create table student(
+	rollno int primary key, 
+	fname varchar(20) not null, 
+	lname varchar(20) not null, 
+	phoneno varchar(10) not null, 
+	email varchar(50) not null, 
+	gender char , 
+	address varchar(300) not null);
+
+3. Insert
+Insert into student values(1, "firstname", "lastname", "8451151665", "chaitanya@kcs.com", 'M', "address");
+
+4. Select
+select * from student;
+
+5. Alter
+Alter table student Add
+Alter table student Drop
+Alter table student Modify
+
+6. TRUNCATE TABLE student; 	//Delete all the records from table and reset auto primary key.
+
+7. DROP TABLE student;		// Drop whole table including records
+
+8. RENAME TABLE student to students_subject;
+
+9. DELETE FROM student WHERE rollno = 1;
+
+10. SELECT * FROM student WHERE fname LIKE 'A%';
+
+11. SELECT rollno * FROM student ORDER BY desc;
+
+12. SELECT fname, lname, contactno FROM  GROUP BY rollno
+
+13. SELECT DISTINCT contactno FROM student;
+
+14.JOINs
+
+create table student(
+	rollno int not null primary key, 
+	fname varchar(20), 
+	lname varchar(20), 
+	phoneno varchar(10), 
+	email varchar(50), 
+	gender char, 
+	address varchar(300));
+
+create table student_address(
+	pincode int not null primary key,
+	city varchar(20), 
+	state varchar(20), 
+	Country varchar(20), 
+	foreign key(rollno) refernce student(rollno));
+
+create table student_subject(	
+	subject_name varchar(20),
+	marks int, status varchar(20), 
+	rollno int, 
+	primary key(rollno, subject_name), 
+	foreign key(rollno) reference student(rollno));
+
+15. SELECT fname, lname, 
+	contactno FROM student_master CROSS JOIN student_subject;
+
+16. SELECT student.rollno, 
+	student_subject.marks FROM student_master INNER JOIN student_subject WHERE student.rollno = student_subject.rollno;
+
+17. SELECT student.rollno, 
+	student_subject.marks FROM student_master NATURAL JOIN student_subject WHERE student_master.rollno = student_subject.rollno;
+
+18. SELECT student.fname FROM student_master, 
+	student_subject on student.rollno = student_subject.rollno;
+
+19. SELECT * FROM student LEFT OUTER JOIN student_subject ON (student.rollno = student_subject.rollno);
+
+20. SELECT * FROM student RIGHT OUTER JOIN student_subject ON (student.rollno = student_subject.rollno);
+
+21. SELECT * FROM student FULL OUTER JOIN student_subject ON (student.rollno = student_subject.rollno);
+
